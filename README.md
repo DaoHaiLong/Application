@@ -1,2 +1,3 @@
 # Application
-small app
+
+  small app and some small games
