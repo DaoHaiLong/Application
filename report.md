@@ -28,15 +28,15 @@ May,2021
 - [III/ The need](#Need)
 - [IV/The creation](#Creation)
   * [1.The idea of creating a system model](#idea)
-  * [2.Database schema](#Database schema) 
-    + [a) Relationship between tables:](#Relationship between tables)
-    + [b) Tables functions:](#Tables functions)
-  * [3. Python modules, classes and packages:](#Python modules, classes and packages)
-  * [4. UI structure:](#UI structure)
-    + [a) Check in:](#Check in)
-    + [b) Room manage:](#Room manage)
-    + [c) Room order:](#Room order)
-    + [d) Check out:](#Check out)
+  * [2.Database schema](#Database) 
+    + [a) Relationship between tables:](#Relationship)
+    + [b) Tables functions:](#Tables)
+  * [3. Python modules, classes and packages:](#module)
+  * [4. UI structure:](#UI)
+    + [a) Check in:](#Checkin)
+    + [b) Room manage:](#Room)
+    + [c) Room order:](#Roomorder)
+    + [d) Check out:](#Checkout)
     + [e) History:](#History)
 - [V/ Conclusion](#Conclusion)
 
@@ -62,7 +62,7 @@ May,2021
 &ensp;&ensp;&ensp;As you can see, a hotel management system may become a great asset to the business, improving your team's performance and helping to keep up with competitors.
 
 ## IV/ The creation <a name="Creation"></a>
-### The idea of creating a system model:<a name="idea"></a>
+### 1.The idea of creating a system model:<a name="idea"></a>
 
 &ensp;&ensp;&ensp;To implement this project, we came up with the idea of creating 6 functions that perform different tasks of the hotel management system:
 ```
@@ -89,17 +89,17 @@ History function:
     Themes changing function:
     Change Theme background color.
 ```
-### 2.Database schema:
+### 2.Database schema:<a name="Database"></a>
 
 &ensp;&ensp;&ensp;**The database** is the source of information that we used to create this project. So we designed a database diagram to help you understand how the system works, it is designed with 9 fundamental tables that are closely related to each other.
 
-#### a) Relationship between tables:
+#### a) Relationship between tables:<a name="Relationship"></a>                      
 
 + Tables with one-to-one relationship: &quot;cusstomer&quot;, &quot;room\_type&quot;, &quot;room\_status&quot;, &quot;supply&quot;.
 + Tables with one-to-many relationship: &quot;room\_service&quot;, &quot;history&quot;.
 + Tables with many-to-many relationship: &quot;room&quot;, &quot;check\_in&quot;, &quot;check\_out&quot;.
 
-#### b) Tables functions:
+#### b) Tables functions:<a name="Tables"></a>
 
 - Customer: key information of a customer.
 - Room\_type: type and price of each room.
@@ -111,7 +111,7 @@ History function:
 - Check\_out: Customer&#39;s Invoice.
 - History: Data warehouse of hotel management system.
 
-### 3. Python modules, classes and packages:
+### 3. Python modules, classes and packages:<a name="module"></a>
 &ensp;&ensp;&ensp;In this project, we divide it into various small sections to facilitate easy processing:
 
 
@@ -127,7 +127,7 @@ History function:
     +  “view” package: create a system data model based on the MVC pattern (Model – View – Controller)
     +  “main_hotel” file: open a new window tkinter.
 
-### 4. UI structure:
+### 4. UI structure:<a name="UI"></a>
 
 &ensp;&ensp;&ensp;Here is the main user interface that we designed:
 
@@ -136,7 +136,7 @@ History function:
 > &ensp;&ensp;&ensp;It has five functionalitys to select: check in, room manage, room order, check out, history.
 
 
-#### a) Check in:
+#### a) Check in:<a name="Checkin"></a>
 
 ![](RackMultipart20210601-4-vn3mgl_html_77489d2a0169df12.png)
 
@@ -146,28 +146,28 @@ History function:
 
 > &ensp;&ensp;&ensp;The last two blanks, users can choose the room type and availability as required by the customer.
 
-#### b) Room manage:
+#### b) Room manage:<a name="Room"></a>
 
 
 > &ensp;&ensp;&ensp;Display a list of available or unavailable room statuses.
 
-#### c) Room order:
+#### c) Room order:<a name="Roomorder"></a>
 
 > &ensp;&ensp;&ensp;Based on the order of the customer who is renting the room, the user selects the type of item and the quantity provided to that customer.
 
 
-#### d) Check out:
+#### d) Check out:<a name="Checkout"></a>
 
 ![](RackMultipart20210601-4-vn3mgl_html_7293663f067bb80f.png)
 
 > &ensp;&ensp;&ensp;Select the room and fill in the customer&#39;s check-out date, thereby calculating the customer&#39;s invoice.
 
-#### e) History:
+#### e) History:<a name="History"></a>
 
 ![](RackMultipart20210601-4-vn3mgl_html_519eb211b7c3d2bd.png)
 
 > &ensp;&ensp;&ensp;After each customer check-out, automatically store the hotel room rental period and the amount paid by the customer.
 
-## V/ Conclusion
+## V/ Conclusion<a name="Conclusion"></a>
 
 > &ensp;&ensp;&ensp;While developing this project we have learnt a lot about hotel management. In addition, during the development process we studied carefully and understood the criteria of Implementation process. Moreover, we have learnt how to make a system user friendly. Also, the Online Hotel Management System was developed to replace the manual process of booking for a hotel room or any other facility of the hotel.
