@@ -25,7 +25,7 @@ May,2021
 
 - [I/ Introduction](#Introduction)
 
-- [II/The purpose](#The purpose)
+- [II/The purpose](#Purpose)
 - [III/The need] (#The need)
 - [IV/The creation](#The creation)
   * [1.The idea of creating a system model](#The idea of creating a system model)
@@ -46,7 +46,7 @@ May,2021
 
 &ensp;&ensp;&ensp;In this report, we will explain about the program that we showed you in the presentation and demo part on Thursday, May 27, 2021: What our program does; Why people need to use our program; and how we could manage to create the a Hotel Management System.
 
-## The purpose
+## Purpose
 
 &ensp;&ensp;&ensp;In this project, our team developed a system to simplify the work of a manager. We have also written functions that help managers handle customer transactions such as check-in, customer information entry, room management, service order entry, payment entry and record keeping of incoming guests. server.
 
