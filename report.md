@@ -21,12 +21,13 @@ May,2021
 
 > ĐẶNG HOÀNG PHÚC
 
-## **TABLE OF CONTENT:**
+# TABLE OF CONTENT:**
 
 - [I/ Introduction](#Introduction)
-- [II/ The purpose](#The purpose)
-- [III/ The need](#The need)
-- [IV/ The creation](#The creation)
+
+- [II/The purpose](#The purpose)
+- [III/The need] (#The need)
+- [IV/The creation](#The creation)
   * [1.The idea of creating a system model](#The idea of creating a system model)
   * [2.Database schema](#Database schema) 
     + [a) Relationship between tables:](#Relationship between tables)
