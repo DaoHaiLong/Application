@@ -24,11 +24,10 @@ May,2021
 # TABLE OF CONTENT:**
 
 - [I/ Introduction](#Introduction)
-
 - [II/The purpose](#Purpose)
-- [III/The need] (#The need)
-- [IV/The creation](#The creation)
-  * [1.The idea of creating a system model](#The idea of creating a system model)
+- [III/The need] (#Need)
+- [IV/The creation](#Creation)
+  * [1.The idea of creating a system model](## idea)
   * [2.Database schema](#Database schema) 
     + [a) Relationship between tables:](#Relationship between tables)
     + [b) Tables functions:](#Tables functions)
@@ -41,18 +40,18 @@ May,2021
     + [e) History:](#History)
 - [V/ Conclusion](#Conclusion)
 
-## Introduction
+## I/ Introduction<a name="Introduction"></a>
 &ensp;&ensp;&ensp;This is the project report of group 8, the course "Advanced Programming with Python". This course, including the most fundamental parts that we should know about Python language namely: OOP, Modules and Packages,etc
 
 &ensp;&ensp;&ensp;In this report, we will explain about the program that we showed you in the presentation and demo part on Thursday, May 27, 2021: What our program does; Why people need to use our program; and how we could manage to create the a Hotel Management System.
 
-## The Purpose<a name="Purpose"></a>
+## II/ The Purpose<a name="Purpose"></a>
 
 &ensp;&ensp;&ensp;In this project, our team developed a system to simplify the work of a manager. We have also written functions that help managers handle customer transactions such as check-in, customer information entry, room management, service order entry, payment entry and record keeping of incoming guests. server.
 
 &ensp;&ensp;&ensp;The main aim of the entire activity is to automate the process of day to day activities of Hotel like Room activities, Admission of a New Customer, Assign a room according to customer's demand, checkout of a computer and releasing the room and finally compute the bill etc.
 
-## The need
+## III/ The need<a name="Need"></a>
 
 &ensp;&ensp;&ensp;We live in a world of high-tech solutions in every sphere - from finances to agriculture. Currently, more and more travelers tend to book rooms and services online, so hotel owners should be prepared to cope with this type of activity.
 
@@ -62,8 +61,8 @@ May,2021
 
 &ensp;&ensp;&ensp;As you can see, a hotel management system may become a great asset to the business, improving your team's performance and helping to keep up with competitors.
 
-## The creation
-### The idea of creating a system model:
+## IV/ The creation <a name="Creation"></a>
+### The idea of creating a system model:<a name="idea"></a>
 
 &ensp;&ensp;&ensp;To implement this project, we came up with the idea of creating 6 functions that perform different tasks of the hotel management system:
 ```
