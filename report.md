@@ -27,7 +27,7 @@ May,2021
 - [II/ The purpose](#Purpose)
 - [III/ The need](#Need)
 - [IV/The creation](#Creation)
-  * [1.The idea of creating a system model](##idea)
+  * [1.The idea of creating a system model](#idea)
   * [2.Database schema](#Database schema) 
     + [a) Relationship between tables:](#Relationship between tables)
     + [b) Tables functions:](#Tables functions)
